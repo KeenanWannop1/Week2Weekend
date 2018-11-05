@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/action_menu_red"
+            android:orderInCategory="1"
+            android:title="Red"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_menu_green"
+            android:orderInCategory="2"
+            android:title="Green"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_menu_yellow"
+            android:orderInCategory="3"
+            android:title="Yellow"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_menu_blue"
+            android:orderInCategory="4"
+            android:title="Blue"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_increase_textsize"
+            android:icon="@drawable/ic_arrow_upward_black_24dp"
+            android:title="Increase Text Size"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/action_decrease_textsize"
+            android:title="Decrease Text Size"
+            app:showAsAction="ifRoom"
+            android:icon="@drawable/ic_arrow_downward_black_24dp"/>
+    </group>
+</menu>
